@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #15151d;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.top {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.left {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.right {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-top: 2px solid #252534;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scale-in {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+@keyframes scale-out {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0;
+  }
+}
+@keyframes scale-to-fit {
+  to {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+body {
+  font-family: "Lato";
+  overflow-x: hidden;
+}
+
+header {
+  height: 500px;
+}
+header img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+header .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  text-transform: uppercase;
+  font-size: 200%;
+  text-align: center;
+  width: 65%;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+nav .navbar-nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+nav .navbar-nav li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+nav .navbar-nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navbar-nav li:hover {
+  opacity: 0.8;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+main article {
+  flex: 1;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #1b1b35 0% 33%, #00ff59 66%, #0091ff 100%);
+  background-size: 300% 300%;
+  background-position: 0% 0%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 5px #2f2f41;
+  transition: background-position 500ms ease-out, box-shadow 500ms ease-out, scale 500ms ease-out;
+  position: relative;
+}
+main article hr {
+  width: 100%;
+  color: #2f2f41;
+  transition: color 500ms ease-out;
+}
+main article:hover {
+  box-shadow: 0 0 0 0 #2f2f41;
+  background-position: 100% 100%;
+  scale: 1.02 1.03;
+}
+main article:hover hr {
+  color: #000000;
+}/*# sourceMappingURL=💅.css.map */

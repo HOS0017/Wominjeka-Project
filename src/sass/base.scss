@@ -148,8 +148,6 @@ body {
 
 header {
     @include place(top);
-    padding: 10px;
-    border-bottom: 2px solid #252534;
 }
 
 .top {
@@ -172,7 +170,6 @@ header {
     @include place(middle);
 }
 
-
 footer {
     @include place(bottom);
     padding: 10px;
@@ -180,7 +177,6 @@ footer {
 }
 
 nav {
-    @include place(top);
     padding: 10px;
     @include flexbox(row, center, center)
 }

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #15151d;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  position: relative;
+}
+
+header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.top {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.bottom {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.left {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.right {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-top: 2px solid #252534;
+}
+
+nav {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  shape-margin: 0.75rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scale-in {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
+@keyframes scale-out {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0;
+  }
+}
+@keyframes scale-to-fit {
+  to {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}/*# sourceMappingURL=base.css.map */
